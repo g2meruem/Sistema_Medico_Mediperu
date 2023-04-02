@@ -1,2 +1,2 @@
 Es un software que se utilizará en el ámbito de la salud para la gestión de información clínica, administrativa y financiera. Este tipo de sistema será diseñado para hospitales clínicas, consultorios médicos, laboratorios y otros establecimientos de atención médica para mejorar la calidad de la atención y la eficiencia en la gestión de los procesos
-![MediPeru](https://e7.pngegg.com/pngimages/762/495/png-clipart-staff-of-hermes-medicine-health-care-physician-ochsner-health-system-symbol-miscellaneous-caduceus-as-a-symbol-of-medicine.png)
+![MediPeru](https://blog.ida.cl/wp-content/uploads/sites/5/2020/03/medicina-tecnologia-blog.png)
