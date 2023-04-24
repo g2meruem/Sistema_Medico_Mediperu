@@ -6,7 +6,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 9999;
+  z-index: 9999 !important;
 }
 
 .navbar-left {
@@ -60,6 +60,7 @@ img {
 body {
   margin: 0 !important;
   background-color: black;
+  padding: 0 !important;
 }
 .navbar {
   font-family: 'Open Sans', sans-serif;
@@ -67,14 +68,18 @@ body {
 
 .imagen-texto {
   position: absolute;
-  top: 50px;
-  left: 50px;
+  top: 10px;
+  left: 0px;
   background-color: rgba(255, 255, 255, 0.7);
-  padding: 20px;
+  padding: 10px;
   font-family: 'Arial', sans-serif;
   font-size: 24px;
   font-weight: bold;
   color: #333;
+  background-color: grey;
+  opacity: 0.8;
+  z-index: 2;
+  padding: 50px !important;
 }
 h1 {
   margin-top: 300px !important;
@@ -90,3 +95,7 @@ p {
   margin-right: 50px;
 }
 
+.icono_ambulancia {
+  margin-top: -500px !important;
+  margin-left: -310px !important;
+}
