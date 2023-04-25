@@ -52,14 +52,15 @@ img {
   margin: 0 !important;
   padding: 0 !important;
   z-index: -1;
-  margin-left: -10px !important;
+  margin-left: 0px !important;
   opacity: 0.7;
-  filter: alpha(opacity=80); /* Para IE8 y versiones anteriores */
+  filter: alpha(opacity=80);
+  max-width: 100%;
+
 }
 
-body {
+body ,html {
   margin: 0 !important;
-  background-color: black;
   padding: 0 !important;
 }
 .navbar {
@@ -68,21 +69,21 @@ body {
 
 .imagen-texto {
   position: absolute;
-  top: 10px;
+  top: 0px;
   left: 0px;
-  background-color: rgba(255, 255, 255, 0.7);
   padding: 10px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
   font-family: 'Arial', sans-serif;
   font-size: 24px;
   font-weight: bold;
   color: #333;
-  background-color: grey;
-  opacity: 0.8;
+  opacity: 0.9;
   z-index: 2;
-  padding: 50px !important;
+  padding-bottom: 0px !important;
 }
 h1 {
-  margin-top: 300px !important;
+  margin-top: -700px !important;
 }
 h1, p {
   outline: none;
@@ -96,6 +97,107 @@ p {
 }
 
 .icono_ambulancia {
-  margin-top: -500px !important;
-  margin-left: -310px !important;
+  margin-top: 600px !important;
+  margin-left: -100px !important;
+  padding-bottom: 0 px !important;
+}
+
+.container {
+  position: relative;
+  width: 200px !important;
+  height: 200px !important;
+  
+}
+
+.primer_a {
+  position: absolute;
+  top: 780px;
+  left: 210px;
+  display: block;
+  width: 170px;
+  height: 100px;
+  color: black;
+  text-align:center !important;
+  line-height: 25px;
+  padding-bottom: 0px;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+.icono_mas {
+  margin-top: 375px !important;
+  margin-left: 250px !important;
+  padding-bottom: 0 px !important;
+}
+.container_2 {
+  position: relative;
+  width: 200px !important;
+  height: 200px !important;
+  
+}
+.segundo_a {
+  position: absolute;
+  top: 580px;
+  left: 565px;
+  display: block;
+  width: 170px;
+  height: 100px;
+  color: black;
+  text-align:center !important;
+  line-height: 25px;
+  padding-bottom: 0px;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+.icono_vacuna {
+  margin-top: 175px !important;
+  margin-left: 640px !important;
+  padding-bottom: 0 px !important;
+}
+.container_3 {
+  position: relative;
+  width: 200px !important;
+  height: 200px !important;
+  
+}
+.tercer_a {
+  position: absolute;
+  top: 380px;
+  left: 950px;
+  display: block;
+  width: 170px;
+  height: 100px;
+  color: black;
+  text-align:center !important;
+  line-height: 25px;
+  padding-bottom: 0px;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+.icono_reporte {
+  margin-top: -30px !important;
+  margin-left: 1050px !important;
+  padding-bottom: 0 px !important;
+}
+.container_4 {
+  position: relative;
+  width: 200px !important;
+  height: 200px !important;
+  
+}
+.cuarto_a {
+  position: absolute;
+  top: 180px;
+  left: 1360px;
+  display: block;
+  width: 170px;
+  height: 100px;
+  color: black;
+  text-align:center !important;
+  line-height: 25px;
+  padding-bottom: 0px;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
 }
