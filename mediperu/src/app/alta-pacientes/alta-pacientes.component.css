@@ -1,0 +1,136 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-left img {
+    height: 40px;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  .nav-link {
+    color: white;
+    text-shadow: 1px 1px 2px #000000;
+    text-decoration: none;
+    outline: none;
+  }
+  
+  
+  .navbar-right li {
+  
+    margin-left: 40px;
+    list-style: none;
+  }
+  img {
+    width: 150px;
+    height: 150px !important;
+  }
+  
+  .navbar {
+    background-color: black;
+    opacity: 0.8;
+  }
+  .doctores {
+    position: relative;
+    width: 100vw !important;
+    height: 10% !important;
+    top: 145px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    z-index: -1;
+    margin-left: 0px !important;
+    opacity: 0.7;
+    filter: alpha(opacity=80);
+    max-width: 100%;
+  
+  }
+  
+  body ,html {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+ #app-alta-pacientes{
+    background-color: black !important;
+  }
+  .navbar {
+    font-family: 'Open Sans', sans-serif;
+  }
+  .nav-item-contacto {
+    margin-right: 50px;
+  }
+
+  form {
+    margin-top: 200px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    max-width: 500px;
+  }
+  
+  h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .nombre ,.genero ,.direccion,.edad ,.telefono ,.correo ,.fecha_ingreso ,.motivo_ingreso ,.doctor_asignado ,.submit{
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  @media screen and (max-width: 600px) {
+    form {
+      margin: 20px auto;
+    }
+  }
+.imagen_fondo_negro{
+    width: 100% !important;
+    height: auto !important;
+    z-index: 9998;
+    opacity: 0.3;
+    margin-top: -888px;
+    margin-left: 0px !important;
+    object-fit: cover;
+}

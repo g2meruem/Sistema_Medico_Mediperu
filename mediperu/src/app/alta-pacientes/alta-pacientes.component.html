@@ -1,1 +1,68 @@
-<p>alta-pacientes works!</p>
+<nav class="navbar">
+    <div class="navbar-left">
+      <a href="#"><img src="assets/images/icono.png" alt="MediPeru"></a>
+  
+    </div>
+    <ul class="navbar-right">
+      <li class="nav-item">
+        <a class="nav-link" href="">Alta pacientes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Solicitar medicamentos</a>
+      </li>
+      <li class="nav-item" class="nav-item-contacto">
+        <a class="nav-link" href="#">Contacto</a>
+      </li>
+    </ul>
+    
+</nav>
+
+  <form action="#" method="POST">
+    <h2>Alta de paciente</h2>
+    
+    <div class="nombre">
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" name="nombre" required>
+    </div>
+    <div class="edad">
+      <label for="edad">Edad:</label>
+      <input type="number" id="edad" name="edad" required>
+    </div>
+    <div class="genero">
+      <label for="genero">Género:</label>
+      <select id="genero" name="genero" required>
+        <option value="">Selecciona una opción</option>
+        <option value="masculino">Masculino</option>
+        <option value="femenino">Femenino</option>
+        <option value="otro">Otro</option>
+      </select>
+    </div>
+    <div class="direccion">
+      <label for="direccion">Dirección:</label>
+      <input type="text" id="direccion" name="direccion" required>
+    </div>
+    <div class="telefono">
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" required>
+    </div>
+    <div class="correo">
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required>
+    </div>
+    <div class="fecha_ingreso">
+      <label for="fecha_ingreso">Fecha de ingreso:</label>
+      <input type="date" id="fecha_ingreso" name="fecha_ingreso" required>
+    </div>
+    <div class="motivo_ingreso">
+      <label for="motivo_ingreso">Motivo de ingreso:</label>
+      <textarea id="motivo_ingreso" name="motivo_ingreso" required></textarea>
+    </div>
+    <div class="doctor_asignado">
+      <label for="doctor">Doctor a cargo:</label>
+      <input type="text" id="doctor" name="doctor" required>
+    </div>
+    <div class="submit">
+      <button type="submit">Dar de alta</button>
+    </div>
+  </form>
+  <img src="https://fondosmil.com/fondo/32046.jpg" class="imagen_fondo_negro">
